@@ -1,0 +1,10 @@
+<html>
+<head></head>
+<title>JS test</title>
+<body>
+<h1> <font size="+2">JS is: <noscript> <font color=red>BLOCKED</font> </noscript> 
+<span id="jsenabled" style="display:none"><font color=green>ENABLED</font></span> </h1>
+<span id='origin'></span>
+<script>document.getElementById('jsenabled').style.display=''; document.getElementById('origin').textContent='document.origin = '+location.origin</script>
+</body>
+</html>
